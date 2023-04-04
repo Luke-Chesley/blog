@@ -5,13 +5,11 @@
 <ul>
   <% @articles.each do |article| %>
     <li>
+      <a href="<%= article_path(article) %>">
       <%= article.title %>
+      </a>
     </li>
   <% end %>
 </ul>
 
 <h2> End of articles </h2>
-
-
-
-<h3>Keep going throguh turtorial to get links from artilce to article page</h3>
