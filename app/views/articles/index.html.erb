@@ -1,6 +1,8 @@
-<h1>This is Home Page!</h1>
+<h1>This is the Home Page!</h1>
 <p>Find me in app/views/articles/index.html.erb</p>
 <p>This is a view! </p>
+
+<h2> Articles </h2>
 
 <ul>
   <% @articles.each do |article| %>
@@ -14,3 +16,7 @@
 <h2> End of articles </h2>
 
 <%= link_to "Create New Article Here", new_article_path %>
+
+<h4><%= button_to 'Delete All Articles', articles_path, method: :delete, class: 'btn btn-danger delete-all-button', data: { confirm: 'Are you sure?' } %>
+</h4>
+

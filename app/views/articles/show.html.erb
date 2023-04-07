@@ -1,3 +1,17 @@
 <h1><%= @article.title %></h1>
 
 <p><%= @article.body %></p>
+
+
+
+
+<p><%= link_to "Edit Article", edit_article_path(@article) %></p>
+
+<p><%= link_to "Destroy", article_path(@article), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %></p>
+
+
+
+<%= link_to "Go Back To Home Page", root_path%>

@@ -1,0 +1,97 @@
+,date,home_team,home_runs,away_team,away_runs
+0,2023-03-30,New York Yankees,5.0,San Francisco Giants,0.0
+1,2023-03-30,Boston Red Sox,9.0,Baltimore Orioles,10.0
+2,2023-03-30,Chicago Cubs,4.0,Milwaukee Brewers,0.0
+3,2023-03-30,Tampa Bay Rays,4.0,Detroit Tigers,0.0
+4,2023-03-30,Texas Rangers,11.0,Philadelphia Phillies,7.0
+5,2023-03-30,St.Louis Cardinals,9.0,Toronto Blue Jays,10.0
+6,2023-03-30,Kansas City Royals,0.0,Minnesota Twins,2.0
+7,2023-03-30,Cincinnati Reds,4.0,Pittsburgh Pirates,5.0
+8,2023-03-30,Miami Marlins,3.0,New York Mets,5.0
+9,2023-03-30,Houston Astros,2.0,Chicago White Sox,3.0
+10,2023-03-31,San Diego Padres,2.0,Colorado Rockies,7.0
+11,2023-03-31,Oakland Athletics,2.0,Los Angeles Angels,1.0
+12,2023-03-31,Seattle Mariners,3.0,Cleveland Guardians,0.0
+13,2023-03-31,Los Angeles Dodgers,8.0,Arizona Diamondbacks,2.0
+14,2023-03-31,Miami Marlins,2.0,New York Mets,1.0
+15,2023-04-01,Houston Astros,6.0,Chicago White Sox,3.0
+16,2023-04-01,San Diego Padres,1.0,Colorado Rockies,4.0
+17,2023-04-01,Seattle Mariners,4.0,Cleveland Guardians,9.0
+18,2023-04-01,Los Angeles Dodgers,1.0,Arizona Diamondbacks,2.0
+19,2023-04-01,Houston Astros,6.0,Chicago White Sox,4.0
+20,2023-04-01,St.Louis Cardinals,4.0,Toronto Blue Jays,1.0
+21,2023-04-01,Chicago Cubs,1.0,Milwaukee Brewers,3.0
+22,2023-04-01,Texas Rangers,16.0,Philadelphia Phillies,3.0
+23,2023-04-01,New York Yankees,5.0,San Francisco Giants,7.0
+24,2023-04-01,Washington Nationals,1.0,Atlanta Braves,7.0
+25,2023-04-01,Oakland Athletics,1.0,Los Angeles Angels,13.0
+26,2023-04-01,Tampa Bay Rays,12.0,Detroit Tigers,2.0
+27,2023-04-01,Kansas City Royals,0.0,Minnesota Twins,2.0
+28,2023-04-01,Cincinnati Reds,6.0,Pittsburgh Pirates,2.0
+29,2023-04-01,Boston Red Sox,9.0,Baltimore Orioles,8.0
+30,2023-04-01,Miami Marlins,2.0,New York Mets,6.0
+31,2023-04-02,San Diego Padres,8.0,Colorado Rockies,4.0
+32,2023-04-02,Los Angeles Dodgers,10.0,Arizona Diamondbacks,1.0
+33,2023-04-02,Seattle Mariners,0.0,Cleveland Guardians,2.0
+34,2023-04-02,Tampa Bay Rays,5.0,Detroit Tigers,1.0
+35,2023-04-02,Washington Nationals,4.0,Atlanta Braves,1.0
+36,2023-04-02,Boston Red Sox,9.0,Baltimore Orioles,5.0
+37,2023-04-02,New York Yankees,6.0,San Francisco Giants,0.0
+38,2023-04-02,Miami Marlins,1.0,New York Mets,5.0
+39,2023-04-02,Cincinnati Reds,3.0,Pittsburgh Pirates,1.0
+40,2023-04-02,Kansas City Royals,4.0,Minnesota Twins,7.0
+41,2023-04-02,Houston Astros,3.0,Chicago White Sox,6.0
+42,2023-04-02,St.Louis Cardinals,9.0,Toronto Blue Jays,4.0
+43,2023-04-02,Chicago Cubs,5.0,Milwaukee Brewers,9.0
+44,2023-04-02,Oakland Athletics,0.0,Los Angeles Angels,6.0
+45,2023-04-02,Seattle Mariners,5.0,Cleveland Guardians,6.0
+46,2023-04-02,Los Angeles Dodgers,1.0,Arizona Diamondbacks,2.0
+47,2023-04-02,San Diego Padres,3.0,Colorado Rockies,1.0
+48,2023-04-02,Texas Rangers,2.0,Philadelphia Phillies,1.0
+49,2023-04-03,Milwaukee Brewers,10.0,New York Mets,0.0
+50,2023-04-03,Chicago White Sox,3.0,San Francisco Giants,12.0
+51,2023-04-03,Cincinnati Reds,7.0,Chicago Cubs,6.0
+52,2023-04-03,Miami Marlins,1.0,Minnesota Twins,11.0
+53,2023-04-03,New York Yankees,8.0,Philadelphia Phillies,1.0
+54,2023-04-03,Washington Nationals,2.0,Tampa Bay Rays,6.0
+55,2023-04-03,Boston Red Sox,6.0,Pittsburgh Pirates,7.0
+56,2023-04-03,Kansas City Royals,9.0,Toronto Blue Jays,5.0
+57,2023-04-03,St.Louis Cardinals,4.0,Atlanta Braves,8.0
+58,2023-04-04,Texas Rangers,0.0,Baltimore Orioles,2.0
+59,2023-04-04,Houston Astros,6.0,Detroit Tigers,7.0
+60,2023-04-04,Seattle Mariners,3.0,Los Angeles Angels,7.0
+61,2023-04-04,Oakland Athletics,11.0,Cleveland Guardians,12.0
+62,2023-04-04,San Diego Padres,5.0,Arizona Diamondbacks,4.0
+63,2023-04-04,Los Angeles Dodgers,13.0,Colorado Rockies,4.0
+64,2023-04-04,San Diego Padres,6.0,Arizona Diamondbacks,8.0
+65,2023-04-04,Miami Marlins,1.0,Minnesota Twins,0.0
+66,2023-04-04,Cincinnati Reds,5.0,Chicago Cubs,12.0
+67,2023-04-04,New York Yankees,1.0,Philadelphia Phillies,4.0
+68,2023-04-04,Washington Nationals,6.0,Tampa Bay Rays,10.0
+69,2023-04-04,Boston Red Sox,1.0,Pittsburgh Pirates,4.0
+70,2023-04-04,Kansas City Royals,1.0,Toronto Blue Jays,4.0
+71,2023-04-04,Milwaukee Brewers,9.0,New York Mets,0.0
+72,2023-04-04,St.Louis Cardinals,1.0,Atlanta Braves,4.0
+73,2023-04-05,Texas Rangers,2.0,Baltimore Orioles,7.0
+74,2023-04-05,Houston Astros,3.0,Detroit Tigers,6.0
+75,2023-04-05,Oakland Athletics,4.0,Cleveland Guardians,3.0
+76,2023-04-05,Seattle Mariners,11.0,Los Angeles Angels,2.0
+77,2023-04-05,Los Angeles Dodgers,5.0,Colorado Rockies,2.0
+78,2023-04-05,Washington Nationals,2.0,Tampa Bay Rays,7.0
+79,2023-04-05,New York Yankees,4.0,Philadelphia Phillies,2.0
+80,2023-04-05,Miami Marlins,5.0,Minnesota Twins,2.0
+81,2023-04-05,St.Louis Cardinals,2.0,Atlanta Braves,5.0
+82,2023-04-05,Boston Red Sox,1.0,Pittsburgh Pirates,4.0
+83,2023-04-05,Milwaukee Brewers,7.0,New York Mets,6.0
+84,2023-04-05,Texas Rangers,5.0,Baltimore Orioles,2.0
+85,2023-04-05,Houston Astros,8.0,Detroit Tigers,2.0
+86,2023-04-05,Chicago White Sox,7.0,San Francisco Giants,3.0
+87,2023-04-05,Oakland Athletics,4.0,Cleveland Guardians,6.0
+88,2023-04-05,Seattle Mariners,3.0,Los Angeles Angels,4.0
+89,2023-04-05,Kansas City Royals,0.0,Toronto Blue Jays,3.0
+90,2023-04-06,Detroit Tigers,3.0,Boston Red Sox,6.0
+91,2023-04-06,Kansas City Royals,3.0,Toronto Blue Jays,6.0
+92,2023-04-06,Chicago White Sox,6.0,San Francisco Giants,16.0
+93,2023-04-06,Colorado Rockies,1.0,Washington Nationals,0.0
+94,2023-04-06,Atlanta Braves,7.0,San Diego Padres,6.0
+95,2023-04-07,Arizona Diamondbacks,2.0,Los Angeles Dodgers,5.0
