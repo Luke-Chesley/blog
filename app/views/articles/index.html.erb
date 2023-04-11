@@ -1,19 +1,20 @@
 <h1>This is the Home Page!</h1>
 <p>app/views/articles/index.html.erb</p>
 <p>This is a view </p>
+<div class="container">
+  <h2> Articles </h2>
 
-<h2> Articles </h2>
+  <ul class="list-unstyled">
+    <% @articles.each do |article| %>
+      <li>
+        <%= link_to article.title, article%>
+        </a>
+      </li>
+    <% end %>
+  </ul>
 
-<ul>
-  <% @articles.each do |article| %>
-    <li>
-      <%= link_to article.title, article%>
-      </a>
-    </li>
-  <% end %>
-</ul>
-
-<h2> End of articles </h2>
+  <h2> End of articles </h2>
+</div>
 
 <%= link_to "Create New Article Here", new_article_path %>
 
