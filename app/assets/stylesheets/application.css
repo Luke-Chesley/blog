@@ -30,3 +30,8 @@
     right: 0;
     width: 30%;
   }
+
+  .article-image {
+    max-width: 400px;
+    height: auto;
+  }
