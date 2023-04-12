@@ -46,6 +46,10 @@ class ArticlesController < ApplicationController
     Article.destroy_all
     redirect_to root_path, notice: 'All articles have been deleted!'
   end
+
+  def game_results
+    @articles = Article.all
+  end
   
 
 

@@ -52,19 +52,35 @@
   }
 
   .index_header  {
-    background-color: rgba(0, 45, 114); /* light blue with 50% opacity */
+    background-color: rgba(0, 45, 114); /* MLB Blue */
     height: 6vh; /* 1 inch thick */
   }
 
   .index_header h1 {
-    position: absolute;
+    position: relative;
     top: 3vh;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0.5em;
-    color: rgb(213,0,50);
+    color: rgb(213,0,50); /* MLB Red */
     text-shadow: 1px 1px 1px black;
     font-size: 4em;
+    text-align: center;
+  }
+
+  .game_results_button {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 auto;
+    margin-top: -5vh;
   }
   
+  .index_image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+  }

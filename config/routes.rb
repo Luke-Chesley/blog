@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   delete '/articles', to: 'articles#destroy_all', as: 'delete_all_articles'
 
   resources :articles
+
+  post 'game_results', to: 'articles#game_results'
 end

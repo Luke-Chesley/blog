@@ -1,25 +1,15 @@
 <div class="index_header">
-  <h1>This is the home page!</h1>
+  <h1>MLB Game Result Blog</h1>
 </div>
 <p>app/views/articles/index.html.erb</p>
-<p>This is a view </p>
-<div class="container">
-  <h2> 2023 MLB Season - Game Results </h2>
 
-  <ul class="list-unstyled">
-    <% @articles.each do |article| %>
-      <li>
-        <%= link_to article.title, article%>
-        </a>
-      </li>
-    <% end %>
-  </ul>
-
-  <h2> End of articles </h2>
-</div>
 
 <%= link_to "Create New Article Here", new_article_path %>
 
 <h4><%= button_to 'Delete All Articles', articles_path, method: :delete, class: 'btn btn-danger delete-all-button', data: { confirm: 'Are you sure?' } %>
 </h4>
 
+
+<%=  button_to "View 2023 Game Results", game_results_path, class: "game_results_button"%>
+
+<%= image_tag 'mlb.png', class: "index_image" %>
