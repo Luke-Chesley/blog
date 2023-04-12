@@ -52,7 +52,7 @@
   }
 
   .index_header  {
-    background-color: rgba(0, 153, 255, 0.5); /* light blue with 50% opacity */
+    background-color: rgba(0, 45, 114); /* light blue with 50% opacity */
     height: 6vh; /* 1 inch thick */
   }
 
@@ -63,8 +63,8 @@
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0.5em;
-    color: black;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    font-size: 2em;
+    color: rgb(213,0,50);
+    text-shadow: 1px 1px 1px black;
+    font-size: 4em;
   }
   
