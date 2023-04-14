@@ -3,11 +3,10 @@
 </div>
 <p>app/views/articles/index.html.erb</p>
 
+<%= link_to "Manage Articles", manage_articles_path %>
 
-<%= link_to "Create New Article Here", new_article_path %>
 
-<h4><%= button_to 'Delete All Articles', articles_path, method: :delete, class: 'btn btn-danger delete-all-button', data: { confirm: 'Are you sure?' } %>
-</h4>
+
 
 
 <%=  button_to "View 2023 Game Results", game_results_path, class: "game_results_button"%>

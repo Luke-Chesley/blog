@@ -2,6 +2,7 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 
-//= require jquery
-//= require bootstrap
-
+import jQuery from 'jquery';
+import 'bootstrap';
+window.jQuery = jQuery;
+window.$ = jQuery;

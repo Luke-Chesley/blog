@@ -36,11 +36,12 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
+    puts "AAAAAAAAAAAAAAAAAAAA"
     @article = Article.find(params[:id])
     @article.destroy
-
-    redirect_to root_path, status: :see_other
+    redirect_to game_results_path
   end
+  
   
   def destroy_all
     Article.destroy_all
@@ -50,7 +51,7 @@ class ArticlesController < ApplicationController
   def game_results
     @articles = Article.all
   end
-  
+
 
 
   private

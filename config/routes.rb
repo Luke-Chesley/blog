@@ -6,4 +6,9 @@ Rails.application.routes.draw do
   resources :articles
 
   post 'game_results', to: 'articles#game_results'
+  get 'game_results', to: 'articles#game_results'
+
+  get 'manage_articles', to: 'articles#manage_articles'
+  
+  delete '/articles/:id', to: 'articles#destroy', as: 'delete_article'
 end
