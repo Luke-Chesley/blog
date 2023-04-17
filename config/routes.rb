@@ -13,4 +13,9 @@ Rails.application.routes.draw do
   delete '/articles/:id', to: 'articles#destroy', as: 'delete_article'
 
   get 'about', to: 'articles#about'
+
+  get 'testindex', to: 'articles#testindex'
+
+
+
 end
