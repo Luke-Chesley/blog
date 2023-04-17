@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   get 'manage_articles', to: 'articles#manage_articles'
   
   delete '/articles/:id', to: 'articles#destroy', as: 'delete_article'
+
+  get 'about', to: 'articles#about'
 end

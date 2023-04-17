@@ -1,10 +1,11 @@
+<div class="dark-theme">
 <div class="container">
   <h2> 2023 MLB Season - Game Results </h2>
 
   <ul class="list-unstyled">
     <% @articles.each do |article| %>
       <li>
-        <%= link_to article.title, article%>
+        <%= link_to article.title, article, class: "dark-theme"%>
         </a>
       </li>
     <% end %>
@@ -12,7 +13,7 @@
 
   <h2> End of Games </h2>
 
-  <h3><%= link_to "Back to Home", root_path %></h3>
+  <h3><%= link_to "Back to Home", root_path, class: "dark-theme" %></h3>
 
 
 </div>

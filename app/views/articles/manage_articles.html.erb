@@ -1,9 +1,9 @@
+<div class="dark-theme">
 <h1>Manage Articles </h1>
 
 <h4><%= button_to 'Delete All Articles', articles_path, method: :delete, class: 'btn btn-danger delete-all-button', data: { confirm: 'Are you sure?' } %>
 </h4>
 
-<h3><%= link_to "Create New Article Here", new_article_path %></h3>
+<h3><%= link_to "Create New Article Here", new_article_path, class: "dark-theme" %></h3>
 
-<%= link_to "Back to Home", root_path %>
-
+<%= link_to "Back to Home", root_path, class: "dark-theme" %>

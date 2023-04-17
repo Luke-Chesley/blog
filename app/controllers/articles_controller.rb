@@ -36,7 +36,6 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
-    puts "AAAAAAAAAAAAAAAAAAAA"
     @article = Article.find(params[:id])
     @article.destroy
     redirect_to game_results_path
