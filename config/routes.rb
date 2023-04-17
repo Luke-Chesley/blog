@@ -16,6 +16,9 @@ Rails.application.routes.draw do
 
   get 'testindex', to: 'articles#testindex'
 
+  get 'ballparks', to: 'ballparks#index', as: 'ballparks'
+
+
 
 
 end

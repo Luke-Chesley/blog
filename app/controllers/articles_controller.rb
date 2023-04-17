@@ -50,10 +50,6 @@ class ArticlesController < ApplicationController
   def game_results
     @articles = Article.all
   end
-  
-  def testindex
-  end
-
 
 
   private

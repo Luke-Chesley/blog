@@ -73,3 +73,5 @@ end
 
 gem 'bootstrap'
 
+gem 'nokogiri'
+
