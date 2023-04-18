@@ -1,41 +1,51 @@
-<table class='ballpark'>
-    <%= stylesheet_link_tag 'ballpark' %>
-  <thead>
-    <tr>
-      <th>Franchise</th>
-      <th>League</th>
-      <th>Stadium</th>
-      <th>City</th>
-      <th>Original Architect</th>
-      <th>1st Year</th>
-      <th>Last Year</th>
-      <th>Capacity</th>
-      <th>Left Field</th>
-      <th>Left Center</th>
-      <th>Center Field</th>
-      <th>Right Center</th>
-      <th>Right Field</th>
-      <th>Area of Fair Territory</th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @ballparks.each do |ballpark| %>
-      <tr>
-        <td><%= ballpark[:franchise] %></td>
-        <td><%= ballpark[:league] %></td>
-        <td><%= ballpark[:stadium] %></td>
-        <td><%= ballpark[:city] %></td>
-        <td><%= ballpark[:architect] %></td>
-        <td><%= ballpark[:first_year] %></td>
-        <td><%= ballpark[:last_year] %></td>
-        <td><%= ballpark[:capacity] %></td>
-        <td><%= ballpark[:left_field] %></td>
-        <td><%= ballpark[:left_center] %></td>
-        <td><%= ballpark[:center_field] %></td>
-        <td><%= ballpark[:right_center] %></td>
-        <td><%= ballpark[:right_field] %></td>
-        <td><%= ballpark[:fair_territory] %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>All US Ballparks</title>
+    <%= stylesheet_link_tag 'ballparks' %>
+  </head>
+  <body>
+    <h1>Ballparks</h1>
+    <%= image_tag 'mlb.png', alt: 'My Blog Logo', class: 'logo' %>
+    <table>
+      <thead>
+        <tr>
+          <th>Franchise</th>
+          <th>League</th>
+          <th>Stadium</th>
+          <th>City</th>
+          <th>Architect</th>
+          <th>First Year</th>
+          <th>Last Year</th>
+          <th>Capacity</th>
+          <th>Left Field</th>
+          <th>Left Center</th>
+          <th>Center Field</th>
+          <th>Right Center</th>
+          <th>Right Field</th>
+          <th>Fair Territory (sq ft)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @ballparks.each do |ballpark| %>
+          <tr>
+            <td><%= ballpark[:franchise] %></td>
+            <td><%= ballpark[:league] %></td>
+            <td><%= ballpark[:stadium] %></td>
+            <td><%= ballpark[:city] %></td>
+            <td><%= ballpark[:architect] %></td>
+            <td><%= ballpark[:first_year] %></td>
+            <td><%= ballpark[:last_year] %></td>
+            <td><%= ballpark[:capacity] %></td>
+            <td><%= ballpark[:left_field] %></td>
+            <td><%= ballpark[:left_center] %></td>
+            <td><%= ballpark[:center_field] %></td>
+            <td><%= ballpark[:right_center] %></td>
+            <td><%= ballpark[:right_field] %></td>
+            <td><%= ballpark[:fair_territory] %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </body>
+</html>

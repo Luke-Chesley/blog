@@ -1,8 +1,0 @@
-.table-spaced {
-    border-collapse: separate;
-    border-spacing: 0 10px;
-  }
-  .table-spaced th,
-  .table-spaced td {
-    padding: 10px;
-  }

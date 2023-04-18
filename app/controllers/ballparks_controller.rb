@@ -11,8 +11,7 @@ class BallparksController < ApplicationController
       cols = row.css('td').map(&:text)
       next if cols.empty?
 
-      franchise, league, stadium, city, architect, first_year, last_year, capacity, lf, lcf, cf, rcf, rf, *rest_cols = cols
-      fair_territory = rest_cols.join(" ").to_f
+      franchise, league, stadium, city, architect, first_year, last_year, capacity, lf, lcf, cf, rcf, rf, _, _, _, fair_territory, _ = cols
 
       @ballparks << { 
         franchise: franchise,
@@ -28,7 +27,8 @@ class BallparksController < ApplicationController
         center_field: cf.to_f,
         right_center: rcf.to_f,
         right_field: rf.to_f,
-        fair_territory: fair_territory
+        fair_territory: fair_territory ? fair_territory.gsub(/,/, '').to_f : nil
+
       }
     end
   end
