@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'game_results/index'
   root "articles#index"
 
   delete '/articles', to: 'articles#destroy_all', as: 'delete_all_articles'
