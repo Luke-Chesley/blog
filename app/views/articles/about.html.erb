@@ -1,12 +1,31 @@
-<body class="dark-theme">
-    
-<h1>About This Blog (this was written by AI)</h1>
-  
-  <p>Welcome to MLB Scores Blog, a blog dedicated to recording the final scores of MLB games. Here you can find the latest scores of your favorite baseball teams and stay up-to-date with the latest happenings in the world of baseball.</p>
-  
-  <p>The team of dedicated writers and researchers work hard to bring you the most accurate and reliable scores from all around the league. We strive to provide the most comprehensive coverage of MLB games and make it easy for you to stay informed.</p>
-  
-  <p>Thank you for choosing MLB Scores Blog as your go-to source for the latest MLB scores. Be sure to check back often for the latest updates and news from around the league.</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About This Blog</title>
+    <%= stylesheet_link_tag 'index' %>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <%= image_tag 'mlb.png', alt: 'My Blog Logo' %>
+        </div>
+        <ul class="nav-links">
+          <li><%= link_to 'Home', root_path %></li>
+          <li class="title"> MLB Blog</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>About This Blog (this was written by AI)</h1>
 
+      <p>Welcome to MLB Scores Blog, a blog dedicated to recording the final scores of MLB games. Here you can find the latest scores of your favorite baseball teams and stay up-to-date with the latest happenings in the world of baseball.</p>
 
-<p><%= link_to "Back to Home", root_path, class:"dark-theme" %></p>
+      <p>The team of dedicated writers and researchers work hard to bring you the most accurate and reliable scores from all around the league. We strive to provide the most comprehensive coverage of MLB games and make it easy for you to stay informed.</p>
+
+      <p>Thank you for choosing MLB Scores Blog as your go-to source for the latest MLB scores. Be sure to check back often for the latest updates and news from around the league.</p>
+
+      <p><%= link_to "Back to Home", root_path, class:"dark-theme" %></p>
+    </div>
+  </body>
+</html>

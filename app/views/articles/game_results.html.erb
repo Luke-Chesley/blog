@@ -1,19 +1,36 @@
-<div class="container">
-  <h2> 2023 MLB Season - Game Results </h2>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Results | 2023 MLB Season</title>
+    <%= stylesheet_link_tag 'game_results' %>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <%= image_tag 'mlb.png', alt: 'My Blog Logo' %>
+        </div>
+        <ul class="nav-links">
+          <li><%= link_to 'Home', root_path %></li>
+          <li class="title"> MLB Blog</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h2> 2023 MLB Season - Game Results </h2>
 
-  <ul class="list-unstyled">
-    <% @articles.each do |article| %>
-      <li>
-        <%= link_to article.title, article, class: "dark-theme"%>
-        </a>
-      </li>
-    <% end %>
-  </ul>
+      <ul class="list-unstyled">
+        <% @articles.each do |article| %>
+          <li>
+            <%= link_to article.title, article, class: "dark-theme"%>
+            </a>
+          </li>
+        <% end %>
+      </ul>
 
-  <h2> End of Games </h2>
+      <h2> End of Games </h2>
 
-  <h3><%= link_to "Back to Home", root_path, class: "dark-theme" %></h3>
-
-
-</div>
-
+      <h3><%= link_to "Back to Home", root_path, class: "dark-theme" %></h3>
+    </div>
+  </body>
+</html>

@@ -1,9 +1,27 @@
-<div class="dark-theme">
-<h1>Manage Articles </h1>
-
-<h4><%= button_to 'Delete All Articles', articles_path, method: :delete, class: 'btn btn-danger delete-all-button', data: { confirm: 'Are you sure?' } %>
-</h4>
-
-<h3><%= link_to "Create New Article Here", new_article_path, class: "dark-theme" %></h3>
-
-<%= link_to "Back to Home", root_path, class: "dark-theme" %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Blog Homepage</title>
+    <%= stylesheet_link_tag 'index' %>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <%= image_tag 'mlb.png', alt: 'My Blog Logo' %>
+        </div>
+        <ul class="nav-links">
+          <li><%= link_to 'Home', root_path %></li>
+          <li class="title"> MLB Blog</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="dark-theme">
+      <h1>Manage Articles </h1>
+      <h4><%= button_to 'Delete All Articles', articles_path, method: :delete, class: 'btn btn-danger delete-all-button', data: { confirm: 'Are you sure?' } %>
+      </h4>
+      <h3><%= link_to "Create New Article Here", new_article_path, class: "dark-theme" %></h3>
+      <%= link_to "Back to Home", root_path, class: "dark-theme" %>
+    </div>
+  </body>
+</html>
