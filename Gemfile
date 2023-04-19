@@ -75,3 +75,4 @@ gem 'bootstrap'
 
 gem 'nokogiri'
 
+gem 'devise'
