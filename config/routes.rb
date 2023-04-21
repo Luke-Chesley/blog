@@ -19,7 +19,7 @@ Rails.application.routes.draw do
 
   get 'ballparks', to: 'ballparks#index', as: 'ballparks'
 
-  devise_for :users, controllers: { sessions: 'users/sessions', passwords: 'devise/passwords' }
+  devise_for :users
 
 
 end
